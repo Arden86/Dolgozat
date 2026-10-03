@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    font-size: 10px;
+    margin: 0px;
+    text-align: justify;
+    background-image: url(teglafal.jpg);
+   
+}
+
+a:link, a:visited {
+  background-color: #333;
+  color: red;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  border-style: solid;
+  padding:5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.tarolo {
+    width: 80%;
+    max-width: 1000px;
+    background-color: #333; 
+    margin:auto;
+    align-content: center;
+;
+}
+
+.fejlec
+{
+ height: 400px;
+ background-size:cover;
+}
+
+.fejlec img{
+    width: 100%;
+}
+
+.menu{
+    width: auto;
+    max-width: 1000px;
+    background-color: #333;
+    padding: 10px;
+    align-content: center;
+    border-style: solid;
+}
+
+.tartalom{
+    background-color: black;
+    grid-template-columns: 3fr;
+    padding-top: 20px;
+    display: flex;
+    align-items;
+    gap: 20px;
+}
+.tartalom img {
+    width: 300px;
+    height: auto;
+}
